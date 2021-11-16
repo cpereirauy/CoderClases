@@ -1,0 +1,32 @@
+/*Footer/contacto*/
+.footer-container{
+    height: 100px;
+    background-color:black;
+  }
+  
+  ul.footer-items i{
+    color: yellowgreen;
+    font-size: 35px;
+    margin: 20px 0px;  
+  }
+  
+  ul.footer-items a{
+    text-decoration: none;
+  }   
+  
+  /*efecto iconos de footer*/
+  ul.footer-items i:hover{
+    transition:  transform 250ms;
+    transform: translateY(-10px);
+  
+  }   
+  
+  /*GRID para el footer*/
+  .footer-items{
+    margin:25px 0px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    list-style: none;
+  }
+  

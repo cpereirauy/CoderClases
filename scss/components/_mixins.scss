@@ -1,0 +1,34 @@
+@mixin cabeceras($fuente){
+    font-family: 'Dancing Script';
+    font-style: bold;
+    font-size: $fuente;
+    font-weight: 600;
+    margin-top: 10%;
+    // color:white;
+}
+
+
+@mixin cursiva($fuente){
+    font-family: 'Dancing Script';
+    font-style: bold;
+    font-size: $fuente;
+    font-weight: 600;
+    color:black;
+}
+
+@mixin cursivaH2($fuente){
+    font-family: 'Dancing Script';
+    font-style: bold;
+    font-size: $fuente;
+    font-weight: 600;
+    color:black;
+}
+
+
+@mixin reseteo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+

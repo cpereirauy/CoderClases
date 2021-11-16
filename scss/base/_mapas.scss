@@ -1,0 +1,28 @@
+/*Inicio MAPAS*/
+
+#mapas{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+  }
+  
+  #mapas h3{
+    color: white;
+  }
+  
+  /*estilo para thumbnails de la seccion*/
+  .figure img{
+    box-shadow: black 3px 1px 10px;
+    filter: brightness(0.7);
+  }
+  
+  .figure img:hover{
+    filter: brightness(1.1);
+    transform: scale(0.95);
+    transition: all .3s ease;  
+  }
+  /*fin estilos*/
+  
+  /*Fin MAPAS*/

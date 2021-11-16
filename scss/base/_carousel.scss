@@ -1,0 +1,16 @@
+/*Estilos carousel*/
+
+.carousel .carousel-item {
+    height: 600px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      /* top: 0;
+      left: 0; */
+      align-content: center;
+      min-height: 400px;
+    }
+  
+  /*FIN Estilos carousel*/

@@ -1,0 +1,36 @@
+/*estio GALERIA de catalogo.html*/ 
+
+
+.galeria-list{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 55px;
+}
+
+/*filtro y transicion a las imagenes*/
+.galeria-list img{
+  width: 350px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 20px black;
+  align-items: center;
+  filter: blur(1.8px) grayscale(1);  
+  transition: all .5s ease;
+}
+
+.galeria-list img:hover{
+  filter: none;
+  /* transition: blur 2s ease; */
+}
+
+.galeria{
+  margin: 70px auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .top {
+    bottom: 85px;
+    right: 35px;
+}
+}

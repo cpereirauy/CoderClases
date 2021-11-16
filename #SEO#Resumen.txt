@@ -1,0 +1,8 @@
+Detalle mejoras SEO
+*******************
+
+-Agrego meta tag "description" con 39 palabras a todos mis "html"
+-Agrego meta tag "keywords" con 13 terminos que me interesan que sean indexados
+-Agrego Protocolo Open graph a todas las paginas con propiedades title, type, url, image y description
+-edito los <title> de cada pagina para darle relevancia a esa pagina en particular
+-No necesité agregar los ALT a mis img ya que todas lo tenian desd el inicio
