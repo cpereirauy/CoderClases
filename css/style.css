@@ -225,7 +225,6 @@ body {
 .nav-link:hover {
   text-decoration: none;
   background-color: rgba(228, 83, 221, 0.623);
-  border-radius: 5px;
   transition: all 0.6s ease-in-out;
 }
 
@@ -236,12 +235,10 @@ body {
   justify-content: center;
   align-content: center;
   padding-top: 80px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
   /*Animacion de fondo */
   background: linear-gradient(240deg, #ed44cd, #ab4ae7, #35dfe4, #88e435, #ef611a);
   background-size: 400% 400%;
-  animation: avatar 9s ease infinite;
+  animation: avatar 10s ease infinite;
 }
 
 @keyframes avatar {
