@@ -284,14 +284,6 @@ body {
 }
 
 /*FIN seccion historia*/
-/* DIV vacio como espaciador */
-.spacer {
-  width: 100%;
-  height: 0px;
-  background: linear-gradient(270deg, #f0e9ee, #e665c5, #f72dba, #7f4df1, #ffffff);
-  opacity: 0.9;
-}
-
 /*Inicio seccion formulario*/
 #rsvp h2 {
   display: flex;
