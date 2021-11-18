@@ -100,11 +100,13 @@ ul.footer-items i:hover {
 
 /*GRID para el footer*/
 .footer-items {
-  margin: 25px 0px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   list-style: none;
+  width: 300px;
+  padding: 10px0 0;
 }
 
 /*reseteo*/

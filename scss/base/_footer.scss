@@ -22,11 +22,20 @@
   }   
   
   /*GRID para el footer*/
-  .footer-items{
-    margin:25px 0px;
-    display:grid;
+  // .footer-items{
+  //   margin:25px 0px;
+  //   display:grid;
+  //   grid-template-columns: 1fr 1fr 1fr 1fr;
+  //   justify-items: center;
+  //   list-style: none;
+  // }
+  .footer-items {
+    margin: 0 auto;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     list-style: none;
-  }
+    width: 300px;
+    padding: 10px0 0;
+}
   
