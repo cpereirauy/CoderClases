@@ -235,6 +235,7 @@ body {
   justify-content: center;
   align-content: center;
   padding-top: 80px;
+  border-top: 30px solid black;
   /*Animacion de fondo */
   background: linear-gradient(240deg, #ed44cd, #ab4ae7, #35dfe4, #88e435, #ef611a);
   background-size: 400% 400%;
