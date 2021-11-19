@@ -216,7 +216,7 @@ body {
 
 /*estilo de boton 'ir arriba'*/
 .top {
-  width: 50px;
+  width: 45px;
   border-radius: 50%;
   position: fixed;
 }
@@ -224,7 +224,7 @@ body {
 /*hover de los links del menú menos el logo*/
 .nav-link:hover {
   text-decoration: none;
-  background-color: rgba(228, 83, 221, 0.623);
+  background-color: #eca7e9;
   transition: all 0.6s ease-in-out;
 }
 

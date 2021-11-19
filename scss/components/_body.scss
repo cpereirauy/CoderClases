@@ -106,7 +106,7 @@ body{
 
     /*estilo de boton 'ir arriba'*/
 .top{
-    width: 50px;
+    width: 45px;
     border-radius: 50%;
     position: fixed;
   }
@@ -114,14 +114,10 @@ body{
   /*hover de los links del menú menos el logo*/
 .nav-link:hover{ 
     text-decoration:none;
-    background-color: rgba(228, 83, 221, 0.623);
-    // border-radius: 5px;
-    // transform: translateY(-5px);
+    background-color: rgb(236, 167, 233);
     transition: all 0.6s ease-in-out;
   }
-  
-  
-  
+    
   
   /*Inicio seccion historia*/
   .historia-container{
@@ -131,7 +127,6 @@ body{
     align-content: center;
     padding-top: 80px;
     border-top: 30px solid black;
-    // border-bottom: 3px solid black;
     /*Animacion de fondo */
     background: linear-gradient(240deg, #ed44cd, #ab4ae7, #35dfe4, #88e435, #ef611a);
     background-size: 400% 400%;
