@@ -44,7 +44,7 @@ Apuntamos a que adopten nuestro servicio:
 - Wedding Planners
 - Organizadores de eventos
 - Salones de fiesta
-- Particulares que decidan participar mas activamente de la organización de su eventos
+- Particulares que decidan participar mas activamente de la organización de su evento
 
 
 ## 🔗 Links
