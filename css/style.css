@@ -314,6 +314,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 991px) {
+  .vestimentaItems {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 @font-face {
   font-family: "Dancing Script";
@@ -364,7 +370,7 @@ body {
   font-style: bold;
   font-size: 2.4em;
   font-weight: 600;
-  /* margin-top: 10%; */
+  margin-top: 10%;
 }
 
 .team-h2 {
