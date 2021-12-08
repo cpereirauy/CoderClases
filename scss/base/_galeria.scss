@@ -7,6 +7,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     gap: 55px;
+
+    @media only screen and (max-width: 991px) {   
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
 }
 
 /*filtro y transicion a las imagenes*/
@@ -28,9 +36,10 @@
   margin: 70px auto;
 }
 
+
 @media only screen and (max-width: 991px) {
   .top {
     bottom: 85px;
     right: 35px;
-}
-}
+    }
+  }
