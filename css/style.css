@@ -113,7 +113,6 @@ ul.footer-items i:hover {
   transform: translateY(-10px);
 }
 
-/*GRID para el footer*/
 .footer-items {
   margin: 0 auto;
   display: grid;
@@ -121,7 +120,7 @@ ul.footer-items i:hover {
   justify-items: center;
   list-style: none;
   width: 400px;
-  padding: 10px0 0;
+  padding: 10px 0px;
 }
 
 /*reseteo*/
