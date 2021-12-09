@@ -40,10 +40,13 @@
 
  .cursivaH2{
   @include cabeceras(2.4em);
+  margin-top: 0;
  }
 
  .cursiva2{
   @include cabeceras(2.4em);
+  margin-top: 0;
+
 }
 
 .team-h2{

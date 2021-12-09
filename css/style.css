@@ -331,6 +331,10 @@ body {
   width: 80%;
 }
 
+.dressCode {
+  margin-top: 0 !important;
+}
+
 .vestimentaItems {
   display: flex;
   justify-content: center;
@@ -385,6 +389,7 @@ body {
   font-size: 2.4em;
   font-weight: 600;
   margin-top: 10%;
+  margin-top: 0;
 }
 
 .cursiva2 {
@@ -393,6 +398,7 @@ body {
   font-size: 2.4em;
   font-weight: 600;
   margin-top: 10%;
+  margin-top: 0;
 }
 
 .team-h2 {
