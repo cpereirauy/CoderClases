@@ -292,17 +292,24 @@ body {
   font-style: normal;
   font-size: 2em;
   font-weight: 400;
-  margin-top: 10%;
   color: white;
 }
 
+/*responsive para seccion historia*/
 @media only screen and (max-width: 991px) {
-  .story3 {
-    font-size: 14px;
-    display: block;
+  .historia-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar {
+    width: 50%;
+  }
+
+  .story-text {
+    margin-bottom: 35px;
   }
 }
-
 /*FIN seccion historia*/
 /*Inicio seccion formulario*/
 #rsvp h2 {
