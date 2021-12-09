@@ -24,6 +24,14 @@
   gap: 5px;
 }
 
+@media only screen and (max-width: 991px) {
+  #mapas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 #mapas h3 {
   color: white;
 }
@@ -263,7 +271,7 @@ body {
 }
 /*avatares con filtro B&N*/
 .avatar {
-  width: 90%;
+  width: 80%;
   align-content: center;
   filter: grayscale(1);
   box-shadow: 0px 3px 20px white;
@@ -286,6 +294,13 @@ body {
   font-weight: 400;
   margin-top: 10%;
   color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .story3 {
+    font-size: 14px;
+    display: block;
+  }
 }
 
 /*FIN seccion historia*/
